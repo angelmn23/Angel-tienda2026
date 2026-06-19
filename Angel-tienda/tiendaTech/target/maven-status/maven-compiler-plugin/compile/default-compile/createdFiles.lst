@@ -1,6 +1,0 @@
-com\tiendaTech\tienda\service\CategoriaService.class
-com\tiendaTech\tienda\domain\Categoria.class
-com\tiendaTech\tienda\controller\CategoriaController.class
-com\tiendaTech\tienda\TiendaApplication.class
-com\tiendaTech\tienda\ProjectConfig.class
-com\tiendaTech\tienda\repository\CategoriaRepository.class
