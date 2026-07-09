@@ -30,7 +30,7 @@
                                 <option th:each="c : ${categorias}" th:value="${c.idCategoria}">
                                     [[${c.descripcion}]]
                                 </option>
-                            </select>
+                            </select> name="categoria.idCategoria"
                         </div>
                         <div class='mb-3'>
                             <label>[[#{producto.descripcion}]]</label>
@@ -111,7 +111,7 @@
                                         <a th:href="@{/producto/modificar/}+${p.idProducto}" class="btn btn-warning">
                                             <i class="fas fa-pencil-alt"></i> [[#{accion.actualizar}]]
                                         </a>
-                                    </td>
+                                    <td>[[${p.categoria.descripcion}]]</td>
                                 </tr>
                             </tbody>
                         </table></div>
