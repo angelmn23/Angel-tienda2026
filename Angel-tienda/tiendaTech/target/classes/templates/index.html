@@ -3,14 +3,17 @@
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
 
-    <head th:replace="~{general/fragmentos :: head}"></head>
+<head th:replace="~{general/fragmentos :: head}"></head>
 
-    <body>
+<body>
 
-        <header th:replace="~{general/fragmentos :: header}"></header>
+<header th:replace="~{general/fragmentos :: header}"></header>
 
-        <footer th:replace="~{general/fragmentos :: footer}"></footer>
+<section th:replace="~{consultas/fragmentos :: tabs}"></section>
 
-    </body>
+<section th:replace="~{consultas/fragmentos :: tarjetas}"></section>
 
+<footer th:replace="~{general/fragmentos :: footer}"></footer>
+
+</body>
 </html>
